@@ -11,6 +11,7 @@ The board positions are like this:
 3,4,5
 6,7,8
 ```
+
 ## 5 Questions 10 points each, total out of 100
 - Create a server with endpoint `/api/play?userId=1&position=n`
 - Create a react component with 9 tiles which are clickable, and have `id="box-n"` so box 0 would have `id="box-0"` clicking will display the player number in the square
@@ -18,6 +19,10 @@ The board positions are like this:
 - When a player wins, display which one won with the text `Winner is n` in the div with id `winner`
 - Reset button will reset the game
 
+## Running
+```sh
+npx parcel serve public/index.html
+```
 
 ## Testing
 These tests are not exhaustive and only cover a few cases for grading.
