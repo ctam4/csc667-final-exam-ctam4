@@ -10,15 +10,12 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "react-scripts": "^3.4.1",
     "testcafe": "^1.8.4",
     "ws": "^7.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "testcafe chrome tests.js",
-    "eject": "react-scripts eject"
+    "start": "parcel serve public/index.html",
+    "test": "testcafe chrome tests.js"
   },
   "eslintConfig": {
     "extends": "react-app"
