@@ -21,8 +21,11 @@ The board positions are like this:
 
 ## Running
 ```sh
-npx parcel serve public/index.html
+npm run start
 ```
+
+## How to play
+Two players open in the different browser window / tabs. You can only switch player if the game has not started. Click 'Switch Player' to switch before starting. Click 'Reset Game' to reset.
 
 ## Testing
 These tests are not exhaustive and only cover a few cases for grading.
