@@ -16,7 +16,7 @@ test('Final Exam', async t => {
   await axios.get('http://localhost:3000/api/play?playerId=2&position=5');
   await t.expect(Selector('#box-5').textContent).contains('2');
   await t.click('#box-3');
-  await t.expect(Selector('#winner').textContent).contains('Winner is 1'); // 10 points for display winner
+  await t.expect(Selector('#winner').textContent).contains('Winner is Player 1'); // 10 points for display winner
   await t.click('#reset'); // 10 points for reset
   await t.expect(Selector('#box-0').textContent).notContains('1');
 });
